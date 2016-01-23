@@ -9,11 +9,16 @@ import java.util.ArrayList;
 
 import javax.swing.*;
 
+import com.xtremeprime.util.FileManager;
+
 public class MainWindow {
 	JFrame frame;
 	FlowLayout layout = new FlowLayout();
+	FileManager fm = new FileManager();
+	ArrayList<Abonament> list = new ArrayList<Abonament>();
 	
 	public MainWindow(){
+		if(fm.exists("abonamente.txt"))
 		init_gui();
 	}
 	

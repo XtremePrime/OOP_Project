@@ -1,5 +1,7 @@
 package com.xtremeprime;
 
+import com.xtremeprime.util.FileManager;
+
 public class Main {
 	private boolean running = false;
 	
