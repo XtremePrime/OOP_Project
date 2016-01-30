@@ -1,7 +1,6 @@
 package com.xtremeprime;
 
 public class Pachet {
-	
 	private String name;
 	private double cost;
 	

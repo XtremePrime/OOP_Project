@@ -1,7 +1,7 @@
 package com.xtremeprime;
 
 public class Persoana {
-	String firstname, lastname, address, email;
+	private String firstname, lastname, address, email;
 	
 	public Persoana(){}
 	public Persoana(String fn, String ln, String ad, String email){
